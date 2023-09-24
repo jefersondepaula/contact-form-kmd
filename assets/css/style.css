@@ -1,0 +1,19 @@
+.kmd-contact-form {
+    display: grid!important;
+    grid-template-columns: repeat(2, 1fr)!important;
+    gap: 20px!important;
+}
+
+.kmd-contact-form .form-group.message-group {
+    grid-column: span 2;
+}
+
+.kmd-contact-form .form-group input {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .kmd-contact-form {
+        grid-template-columns: 1fr;
+    }
+}
